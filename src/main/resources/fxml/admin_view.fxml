@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="999.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox prefHeight="1000.0" prefWidth="220.0" style="-fx-background-color: bLACK;" BorderPane.alignment="CENTER" />
+         </left>
+         <top>
+            <HBox prefHeight="100.0" prefWidth="1120.0" styleClass="generals" stylesheets="@../styles/styles.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="101.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo_U.jpg" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                     <HBox.margin>
+                        <Insets left="30.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <AnchorPane prefHeight="100.0" prefWidth="397.0">
+                     <children>
+                        <TextFlow layoutX="-6.0" prefHeight="103.0" prefWidth="106.0" />
+                        <TextField layoutX="20.0" layoutY="43.0" />
+                        <ImageView fitHeight="76.0" fitWidth="155.0" layoutX="228.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/logo_U.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <Line endX="-100.20704650878906" endY="99.29289245605469" startX="-100.0" />
+               </children></HBox>
+         </top>
+         <right>
+            <VBox prefHeight="900.0" prefWidth="177.0" style="-fx-background-color: GRAY;" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

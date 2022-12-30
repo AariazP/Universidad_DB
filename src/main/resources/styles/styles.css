@@ -1,0 +1,12 @@
+.generals{
+    -fx-background-color: WHITE;
+}
+
+.whitout-border{
+    -fx-background-radius: 30;
+    -fx-border-color: transparent;
+}
+
+.button-filter{
+    -fx-background-color: Transparent;
+}
