@@ -10,3 +10,27 @@
 .button-filter{
     -fx-background-color: Transparent;
 }
+
+.pane-search{
+    -fx-background-color: #e2e5e8;
+    -fx-background-radius: 30;
+}
+
+.krylon-labels{
+    -fx-font-family: Krylon;
+}
+
+.text-field-search{
+    -fx-background-color: transparent;
+    -fx-background-radius: 30;
+    -fx-border-color: transparent;
+    -fx-cursor: text;
+}
+.pane-general{
+    -fx-background-radius: 40;
+    -fx-background-color: Transparent;
+}
+
+.rectangle-vbox{
+   -fx-border-radius: 30, 30, 30, 30;
+}
