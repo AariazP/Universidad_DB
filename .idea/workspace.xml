@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Jbat2HFlKKDXfXVBdQnJXxfKgy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/alejandroarias/Desktop/Universidad/src/main/resources/images",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.43793103"
   },
@@ -69,9 +71,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources/images" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testMain">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.universidad.application.Application" />
       <module name="Universidad" />
       <option name="VM_PARAMETERS" value="--module-path $PATH_TO_FX$ --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
@@ -107,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672349449949</updated>
       <workItem from="1672349451376" duration="1851000" />
-      <workItem from="1672352508165" duration="22600000" />
+      <workItem from="1672352508165" duration="24393000" />
     </task>
     <servers />
   </component>

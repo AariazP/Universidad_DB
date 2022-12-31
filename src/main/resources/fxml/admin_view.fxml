@@ -280,12 +280,12 @@
                </children></HBox>
          </top>
          <right>
-            <VBox prefHeight="731.0" prefWidth="162.0" BorderPane.alignment="CENTER" />
+            <VBox prefHeight="731.0" prefWidth="328.0" BorderPane.alignment="CENTER" />
          </right>
          <center>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <AnchorPane prefHeight="699.0" prefWidth="1088.0" BorderPane.alignment="CENTER">
                <children>
-                  <TabPane layoutX="-1.0" layoutY="-2.0" prefHeight="735.0" prefWidth="1086.0" stylesheets="@../styles/styles.css" tabClosingPolicy="UNAVAILABLE">
+                  <TabPane layoutX="-1.0" layoutY="-2.0" prefHeight="534.0" prefWidth="1088.0" stylesheets="@../styles/styles.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="197.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <tabs>
                       <Tab text="  Recommended  ">
                            <content>
@@ -302,9 +302,9 @@
                               </GridPane>
                            </content>
                            <content>
-                              <ScrollPane prefHeight="646.0" prefWidth="1084.0">
+                              <ScrollPane prefHeight="660.0" prefWidth="1017.0">
                                  <content>
-                                    <GridPane prefHeight="320.0" prefWidth="1084.0">
+                                    <GridPane prefHeight="320.0" prefWidth="920.0">
                                       <columnConstraints>
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -321,7 +321,7 @@
                            <content>
                               <ScrollPane prefHeight="632.0" prefWidth="1084.0">
                                  <content>
-                                    <GridPane prefHeight="232.0" prefWidth="1082.0">
+                                    <GridPane prefHeight="232.0" prefWidth="920.0">
                                       <columnConstraints>
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -338,7 +338,7 @@
                            <content>
                               <ScrollPane prefHeight="648.0" prefWidth="1084.0">
                                  <content>
-                                    <GridPane prefHeight="151.0" prefWidth="1086.0">
+                                    <GridPane prefHeight="151.0" prefWidth="922.0">
                                       <columnConstraints>
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
