@@ -21,11 +21,11 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="943.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="943.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.universidad.controllers.AdminViewController">
    <children>
       <BorderPane prefHeight="793.0" prefWidth="1500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <left>
-            <VBox prefHeight="758.0" prefWidth="240.0" styleClass="generals" stylesheets="@../styles/styles.css">
+            <VBox prefHeight="734.0" prefWidth="240.0" styleClass="generals" stylesheets="@../styles/styles.css">
                <children>
                   <AnchorPane prefHeight="62.0" prefWidth="206.0" styleClass="generals">
                      <children>
@@ -182,7 +182,7 @@
                   </AnchorPane>
                </children>
                <BorderPane.margin>
-                  <Insets left="10.0" top="10.0" />
+                  <Insets left="10.0" />
                </BorderPane.margin></VBox>
          </left>
          <top>
@@ -232,7 +232,6 @@
                               <Insets />
                            </HBox.margin>
                         </ImageView>
-                        <Button mnemonicParsing="false" styleClass="button-filter" HBox.hgrow="ALWAYS" />
                      </children>
                   </HBox>
                   <Line endX="-99.79304504394531" endY="69.15218353271484" startX="-100.0" stroke="#a19a9a" HBox.hgrow="ALWAYS">
@@ -257,7 +256,7 @@
                               <Insets left="10.0" top="30.0" />
                            </HBox.margin>
                         </Label>
-                        <ImageView fitHeight="32.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../images/notify-animated.gif" />
                            </image>
@@ -265,7 +264,7 @@
                               <Insets top="30.0" />
                            </HBox.margin>
                         </ImageView>
-                        <ImageView fitHeight="39.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
                            <HBox.margin>
                               <Insets left="50.0" top="30.0" />
                            </HBox.margin>

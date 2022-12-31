@@ -84,7 +84,6 @@
 .tab:selected .tab-label {
     -fx-text-fill: #252525;
     -fx-underline: true;
-    -fx-font-style: Bold;
 }
 .tab:selected {
     -fx-background-color:WHITE;

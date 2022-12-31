@@ -9,4 +9,6 @@ public abstract class Controller {
 
      Application application;
 
+     public abstract void inicializar();
+
 }

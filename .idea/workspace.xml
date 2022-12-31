@@ -109,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672349449949</updated>
       <workItem from="1672349451376" duration="1851000" />
-      <workItem from="1672352508165" duration="24393000" />
+      <workItem from="1672352508165" duration="28775000" />
     </task>
     <servers />
   </component>
@@ -126,5 +126,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="co.edu.uniquindio.universidad.controllers.IniciandoController" memberName="progressBar" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
