@@ -8,7 +8,7 @@ public class Main extends Application {
     public static boolean isTest = false;
 
     public static void main(String[] args) {
-        launch(args);
+        launch();
         isTest = true;
     }
 

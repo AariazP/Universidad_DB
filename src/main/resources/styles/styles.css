@@ -34,3 +34,63 @@
 .rectangle-vbox{
    -fx-border-radius: 30, 30, 30, 30;
 }
+
+.button-lateral{
+    -fx-background-color: Transparent;
+    -fx-border-color: Transparent;
+    -fx-text-fill: #252525;
+    -fx-cursor: hand;
+    -fx-font-family: Krylon;
+    -fx-font-size: 12;
+}
+
+.button-lateral:hover{
+    -fx-background-color: Transparent;
+}
+
+.progress-bar-lateral{
+    -fx-background-radius: 30;
+    -fx-padding: 0 0 0 0;
+    -fx-border-color: Transparent;
+}
+.progress-bar-lateral .bar{
+    -fx-background-radius: 30;
+    -fx-background-color: #c5c5c5;
+}
+.progress-bar-lateral > .track {
+    -fx-text-box-border: Transparent;
+    -fx-control-inner-background: Transparent;
+}
+
+.tab-pane {
+    -fx-background-color: WHITE;
+    -fx-border-color: Transparent;
+}
+.tab {
+    -fx-background-color: WHITE;
+    -fx-start-margin: 10;
+    -fx-font-size: 15;
+}
+.tab-pane>*.tab-header-area>*.tab-header-background{
+    -fx-background-color: -fx-outer-border, -fx-text-box-border, WHITE;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0 0 0 0;
+    -fx-background-insets: 0 0 0 0, 0 0 0 0, 0 0 0 0;
+    -fx-padding: 0 0 0 0;
+}
+.tab-label {
+    -fx-text-fill: #252525;
+}
+.tab:selected .tab-label {
+    -fx-text-fill: #252525;
+    -fx-underline: true;
+    -fx-font-style: Bold;
+}
+.tab:selected {
+    -fx-background-color:WHITE;
+    -fx-text-fill: #252525;
+    -fx-underline: true;
+}
+.tab:hover {
+    -fx-cursor: hand;
+}
